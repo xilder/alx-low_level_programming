@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - puts out sizes of types 
+ * main - puts out sizes of types
  * Return: ends function
  */
 int main(void)
