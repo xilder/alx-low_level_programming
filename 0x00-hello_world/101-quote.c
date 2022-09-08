@@ -5,5 +5,6 @@
  */
 int main(void)
 {
-return (1)
+	printf("a");
+	return (1);
 }
