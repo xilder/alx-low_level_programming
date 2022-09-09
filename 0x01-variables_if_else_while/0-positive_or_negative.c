@@ -4,7 +4,7 @@
 /** more headers goes there
 * main - assigns a random number to int n everytime it executes and prints it
 *  Return: always 0
-/* betty style doc for function main goes there */
+* betty style doc for function main goes there */
 int main(void)
 {
 		int n;
