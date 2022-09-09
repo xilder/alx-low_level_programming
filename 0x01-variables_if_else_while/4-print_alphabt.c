@@ -3,7 +3,7 @@
  * main - prints alphabets excpet q and e
  * Return: always 0
  */
-int main (void)
+int main(void)
 {
 	int a;
 
@@ -14,5 +14,6 @@ int main (void)
 			putchar(a);
 		}
 	}
+	putchar('\n');
 	return (0);
 }
