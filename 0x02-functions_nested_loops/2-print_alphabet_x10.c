@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x100 - prints _putchar then a new line
+ * print_alphabet_x10 - prints _putchar then a new line
  * Return: always false
  */
 void print_alphabet_x10(void)
