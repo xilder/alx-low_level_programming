@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check code
+ * times_table - prints a nine by nine times table
  * Return: none
  */
 
@@ -32,5 +32,5 @@ void times_table(void)
 			}
 		}
 		_putchar('\n');
-	}	
+	}
 }
