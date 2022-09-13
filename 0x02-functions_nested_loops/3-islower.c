@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - check code
+ * _islower - checks the number
  * @ch: the character to check
  * Return: always false
  */
 int _islower(int ch)
 {
-        return (ch >= 'a' && ch <= 'z');
+	return (ch >= 'a' && ch <= 'z');
 }
