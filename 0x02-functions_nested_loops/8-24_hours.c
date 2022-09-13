@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * jack_bauer - check the code
  * Return: always false
  */
 void jack_bauer(void)
@@ -14,8 +14,8 @@ void jack_bauer(void)
 			for (k = '0'; k <= '5' ; k++)
 			{
 				for (l = '0'; l <= '9' ; l++)
-			        {
-					 if (i == '2' && j == '4')
+				{
+					if (i == '2' && j == '4')
 					{
 						return;
 					}
@@ -23,10 +23,10 @@ void jack_bauer(void)
 					_putchar(j);
 					_putchar(':');
 					_putchar(k);
-		        	        _putchar(l);
+					_putchar(l);
 					_putchar('\n');
 				}
-		        }
-	        }
+			}
+		}
 	}
 }
