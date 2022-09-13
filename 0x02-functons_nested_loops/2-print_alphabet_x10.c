@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - prints _putchar then a new line
@@ -17,9 +16,3 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 }
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-

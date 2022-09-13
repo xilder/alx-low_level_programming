@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - check code
+ * @ch: the character to check
  * Return: always false
  */
-int _islower(int c)
+int _islower(int ch)
 {
-        return (c >= 'a' && c <= 'z');
+        return (ch >= 'a' && ch <= 'z');
 }
