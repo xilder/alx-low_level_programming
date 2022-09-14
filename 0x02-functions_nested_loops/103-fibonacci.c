@@ -10,13 +10,14 @@ int main(void)
 
 	a = 0;
 	b = 1;
-	do
-	{
+	c = 0;
+	do {
+		if ((c % 2) == 0)
+			d += c;
 		c = a + b;
 		a = b;
 		b = c;
-		if ((c % 2) == 0)
-			d += c;
+		printf("%lu\n", d);
 	} while (c < 4000000);
 	printf("%lu\n", d);
 	return (0);
