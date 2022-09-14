@@ -17,7 +17,6 @@ int main(void)
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%lu\n", d);
 	} while (c < 4000000);
 	printf("%lu\n", d);
 	return (0);
