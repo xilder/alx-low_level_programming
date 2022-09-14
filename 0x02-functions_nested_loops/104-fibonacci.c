@@ -6,5 +6,26 @@
 
 int main(void)
 {
+	unsigned long int a, b, c;
+	int i;
+
+	a = 1;
+	b = 2;
+	for (i = 1; i < 99; i++)
+
+	{
+		c = a + b;
+		if (i != 98)
+		{
+			printf("%lu, ", c);
+		}
+		else
+		{
+			printf("%lu", c);
+		}
+		a = b;
+		b = c;
+	}
+	putchar('\n');
 	return (0);	
 }
