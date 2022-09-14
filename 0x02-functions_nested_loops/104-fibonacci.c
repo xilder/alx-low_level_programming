@@ -9,8 +9,8 @@ int main(void)
 	unsigned long int a, b, c;
 	int i;
 
-	a = 1;
-	b = 2;
+	a = 0;
+	b = 1;
 	for (i = 1; i < 99; i++)
 
 	{
@@ -27,5 +27,5 @@ int main(void)
 		b = c;
 	}
 	putchar('\n');
-	return (0);	
+	return (0);
 }
