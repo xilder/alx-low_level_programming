@@ -6,21 +6,19 @@
 
 int main(void)
 {
-	unsigned long int a, b, c;
+	unsigned long int a, b, c, d;
 	int i;
 
 	a = 0;
 	b = 1;
-	for (i = 1; i <= 50; i++)
+	do
 	{
 		c = a + b;
-		if (i != 50)
-			printf("%lu, ", c);
-		else
-			printf("%lu", c);
 		a = b;
 		b = c;
-	}
-	printf("\n");
+		if ((c % 2) == 0)
+			d += c;
+	} while (c < 4000000);
+	printf("%lu\n", d);
 	return (0);
 }
