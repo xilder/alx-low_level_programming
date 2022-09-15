@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - main function
+ * main - tests the positive_or_negative function
  * positive_or_negative - checks the number
  * Return: 0
  */
@@ -10,7 +10,8 @@ int main(void)
 {
 	int i;
 
-	i = 1;
+	i = 0;
 	positive_or_negative(i);
+
 	return (0);
 }
