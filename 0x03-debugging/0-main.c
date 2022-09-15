@@ -2,7 +2,6 @@
 
 /**
  * main - tests the positive_or_negative function
- * positive_or_negative - checks the number
  * Return: 0
  */
 
