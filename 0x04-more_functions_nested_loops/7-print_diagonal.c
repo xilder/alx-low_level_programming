@@ -5,7 +5,6 @@
  * @n: number of underscore
  * Return: returns 0 or 1
  */
-
 void print_diagonal(int n)
 {
 	int i, j;
@@ -20,7 +19,7 @@ void print_diagonal(int n)
 		{
 			for (j = 0; j < n; j++)
 			{
-				if ( j == 1)
+				if (j == 1)
 				{
 					_putchar('\\');
 				}
