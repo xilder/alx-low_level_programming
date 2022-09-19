@@ -1,9 +1,7 @@
-#include "main.h"
 /**
  * _puts - prints a string to the output
  * @str - string to be put
  */
-
 void _puts(char *str)
 {
 	int i = 0;
