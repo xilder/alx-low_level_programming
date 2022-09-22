@@ -9,13 +9,12 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i, n;
+	int i, n = 0;
 
 	while (dest[n] != '\0')
 	{
 		n++;
 	}
-	new_word = dest;
 	for (i = 0; src[i] != '\0'; i++)
 	{
 		dest[n++] = src[i];
