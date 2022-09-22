@@ -9,7 +9,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, n = 0, j = 15;
+	int i = 0, n = 0;
 
 	while (s1[n] != '\0')
 	{
@@ -20,10 +20,5 @@ int _strcmp(char *s1, char *s2)
 		i++;
 	}
 
-	if (n > i)
-		return (j);
-	else if (n < i)
-		return (-j);
-	else
-		return (0);
+	return (n - i);
 }
