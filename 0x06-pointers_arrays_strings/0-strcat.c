@@ -10,7 +10,6 @@
 char *_strcat(char *dest, char *src)
 {
 	int i, n;
-	char new_word[];
 
 	while (dest[n] != '\0')
 	{
@@ -19,7 +18,7 @@ char *_strcat(char *dest, char *src)
 	new_word = dest;
 	for (i = 0; src[i] != '\0'; i++)
 	{
-		new_word[n++] = src[i];
+		dest[n++] = src[i];
 	}
-	return (new_word);
+	return (dest);
 }
