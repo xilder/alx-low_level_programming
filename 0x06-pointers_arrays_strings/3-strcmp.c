@@ -22,7 +22,7 @@ int _strcmp(char *s1, char *s2)
 
 	if (n > i)
 		return (j);
-	else if (n < 1)
+	else if (n < i)
 		return (-j);
 	else
 		return (0);
