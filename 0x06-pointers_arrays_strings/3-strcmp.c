@@ -7,7 +7,7 @@
  * Return: returns an integer depending on the the function
  */
 
-char *_strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i = 0, n = 0, j = 15;
 
