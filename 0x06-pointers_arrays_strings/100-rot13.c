@@ -1,23 +1,27 @@
 #include "main.h"
-
 /**
- * leet - encrypts a string
- * @s: string to be passed
- * Return: a string that satisfies the function
+ * rot13 - encrypts code
+ * @s: string to encrypt
+ * Return: char value
  */
-
-char *leet(char *s)
+char *rot13(char *s)
 {
-	int i, j;
-	char n[] = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz ";
-	char m[] = "NnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMm ";
+	char part1[52] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+	char part2[52] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
+
+	int i;
+	int j = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; n[j] != ' '; j++)
+
+		for (j = 0; part1[j] != '\0'; j++)
 		{
-			if (s[i] == n[j])
-				s[i] = m[j];
+			if (s[i] == part1[j])
+			{
+				s[i] = part2[j];
+				break;
+			}
 		}
 	}
 	return (s);
