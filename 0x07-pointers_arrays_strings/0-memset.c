@@ -1,4 +1,4 @@
-#insert "main.h"
+#include "main.h"
 
 /**
  * _memset - copies a certain value into array space for
