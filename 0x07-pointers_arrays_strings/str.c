@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,7 +8,7 @@
  * Return: a pointer to the first occurence of c
  */
 
-char *_strchr(char*s, char c)
+char *_strchr(char *s, char c)
 {
 	unsigned int i;
 
@@ -17,4 +18,17 @@ char *_strchr(char*s, char c)
 			return (s + i);
 	}
 	return (NULL);
+}
+int main(void)
+{
+    char *s = "hello";
+    char *f;
+
+    f = _strchr(s, 'l');
+
+    if (f != NULL)
+    {
+        printf("%s\n", f);
+    }
+    return (0);
 }
