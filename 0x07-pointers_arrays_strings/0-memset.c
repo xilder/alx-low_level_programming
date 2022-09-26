@@ -6,7 +6,7 @@
  * @s: array to be copied into
  * @b: value to be copied
  * @n: number of bytes
- * Return: returns s
+ * Return: returns a pointer to the memory area s
  */
 
 char *_memset(char *s, char b, unsigned int n)
