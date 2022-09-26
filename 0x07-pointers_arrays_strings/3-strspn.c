@@ -3,7 +3,8 @@
 /**
  * _strspn - detects the number of queried char
  * @s: string to be searched
- * @f: string to be searched for
+ * @accept: string to be searched for
+ * Return: returns an int
  */
 
 unsigned int _strspn(char *s, char *accept)
