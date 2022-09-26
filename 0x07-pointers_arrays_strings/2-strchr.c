@@ -21,7 +21,7 @@ char *_strchr(char *s, char c)
 			}
 			if (a == 0)
 			{
-				return (NULL);
+				return ('\0');
 			}
 		}
 }
