@@ -1,10 +1,7 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
-	printf("%d\n", result);
-
-	return (0);
-}/**
+/**
  * _atoi - converts a string to an integer
  * @s: string to be converted
  *
