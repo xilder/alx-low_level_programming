@@ -5,6 +5,7 @@
  * main - prints the number of arguments passed into it.
  * @argc: number of arguments to be passed
  * @argv: array of arguments
+ * Return: always 0
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
