@@ -22,16 +22,19 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	if (s1)
 	{
-		for (i = 0; s1[i] != '\0'; i++)
+		while (i < len1)
 		{
 			s3[i] = s1[i];
+			i++;
 		}
 	}
 	if (s2)
 	{
-		for (j = 0; s2[j] != '\0'; j++)
+		while (i < (len1 + len2))
 		{
-			s3[i++] = s2[j];
+			s3[i] = s2[j];
+			i++;
+			j++;
 		}
 	}
 	s3[i] = '\0';
