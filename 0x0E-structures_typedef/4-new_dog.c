@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
+nclude <stdlib.h>
 #include "dog.h"
+
 /**
  * _strlen - returns the length of a string
  * @s: string to evaluate
@@ -49,6 +49,7 @@ char *_strcpy(char *dest, char *src)
 
 	return (dest);
 }
+
 /**
  * new_dog - creates a new dog
  * @name: name of the dog
@@ -84,6 +85,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	_strcpy(dog->name, name);
 	_strcpy(dog->owner, owner);
-}
 	dog->age = age;
 
+	return (dog);
+}
