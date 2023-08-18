@@ -1,1 +1,1 @@
-ALX - 0x17-singly_linked_list
+ALX - 0x17-doubly_linked_list
