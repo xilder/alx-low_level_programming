@@ -1,8 +1,8 @@
-
+#include "hash_tables.h"
 /**
  * hash_djb2 - a hashing function
- *
  * @str:  string to be passed
+ *
  * Return: the hash value
  */
 unsigned long int hash_djb2(const unsigned char *str)
