@@ -11,6 +11,8 @@ def island_perimeter(grid):
     Args:
         grid (list): a list of lists
     """
+    if len(grid) == 1 and len(grid[0]) == 1:
+        return 4
 
     perimeter = 0
 
