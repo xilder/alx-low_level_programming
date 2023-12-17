@@ -10,7 +10,9 @@
 
 int bs_helper(int *array, size_t left, size_t right, int value)
 {
-	size_t i, mid;
+	size_t i;
+	size_t mid;
+
 	mid = (left + right) / 2;
 	printf("Searching in array: %i", array[left]);
 	if (left != right)
