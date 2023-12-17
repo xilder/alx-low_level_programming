@@ -6,7 +6,7 @@
  * @size: size of thr arraay
  * @value: the to be searched for
  *
- * Returns:the index if found else -1
+ * Return: the index if found else -1
  */
 
 int jump_search(int *array, size_t size, int value)
