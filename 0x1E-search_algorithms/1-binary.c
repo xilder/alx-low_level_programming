@@ -3,6 +3,7 @@
  * bs_helper - recursive functionto get value
  * @left: begininning of array
  * @right: end of array
+ * @value: value to be checked
  * @array: array
  *
  * Return: returns the index if found else -1
